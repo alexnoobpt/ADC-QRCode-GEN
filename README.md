@@ -1,6 +1,6 @@
 # qrcodegen
 
-A small Python project.
+A QRCODE GEN project.
 
 ## Structure
 
@@ -37,3 +37,17 @@ python -m src.app
 pip install pytest
 pytest
 ```
+
+## Git Workflow
+
+All work goes through the `develop` branch. Do not commit directly to `main` or `develop`.
+
+1. **Create a branch from `develop`**
+   ```bash
+   git checkout develop
+   git pull
+   git checkout -b feature/your-feature-name
+   ```
+2. **Open a Pull Request into `develop`** once your changes are ready.
+3. **Merge into `develop`** only after the PR has been reviewed and approved.
+4. **Merge `develop` into `main`** as the final step, once everything on `develop` is complete and stable.
