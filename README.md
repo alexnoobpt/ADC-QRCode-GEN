@@ -6,9 +6,12 @@ A CAPTCHAS GEN project.
 
 ```
 QRCODE-GEN/
-├── src/
-│   ├── __init__.py
-│   └── app.py
+├── client/
+   ├── src/
+      ├── __init__.py
+│      └── app.py
+├── database/
+│  
 ├── tests/
 │   ├── __init__.py
 │   └── test_app.py
