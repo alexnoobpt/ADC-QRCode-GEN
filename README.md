@@ -1,6 +1,6 @@
-# qrcodegen
+# Captchas gen
 
-A QRCODE GEN project.
+A CAPTCHAS GEN project.
 
 ## Structure
 
