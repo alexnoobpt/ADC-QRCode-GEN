@@ -1,4 +1,4 @@
-# CAPTCHASGEN
+# Captchas gen
 
 A CAPTCHAS GEN project.
 
@@ -6,9 +6,12 @@ A CAPTCHAS GEN project.
 
 ```
 QRCODE-GEN/
-├── src/
-│   ├── __init__.py
-│   └── app.py
+├── client/
+   ├── src/
+      ├── __init__.py
+│      └── app.py
+├── database/
+│  
 ├── tests/
 │   ├── __init__.py
 │   └── test_app.py
@@ -51,3 +54,4 @@ All work goes through the `develop` branch. Do not commit directly to `main` or 
 2. **Open a Pull Request into `develop`** once your changes are ready.
 3. **Merge into `develop`** only after the PR has been reviewed and approved.
 4. **Merge `develop` into `main`** as the final step, once everything on `develop` is complete and stable.
+
